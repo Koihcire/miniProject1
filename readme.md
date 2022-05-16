@@ -3,7 +3,7 @@
 
 ![website screenshot](/images/website-screenshot.png)
 
-<p>Access the live demo of the website <a href="#" >here</a></p>
+<p>Access the live demo of the website <a href="https://koihcire.github.io/miniProject1/">here</a></p>
 
 __________________________________________________
 
