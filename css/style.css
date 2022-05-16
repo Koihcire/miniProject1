@@ -1,0 +1,155 @@
+.navbar-brand>img{
+    height: 50px;
+}
+
+.navBackground{
+    background: rgb(226, 224, 223)
+}
+
+.navtext {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+}
+
+.buffer {
+    height: 70px;
+}
+
+.background{
+    background-image: url(/images/pattern1.png);
+    background-size:
+}
+
+.formBackground{
+    background: rgba(255, 255, 255, 0.4);
+}
+
+#main2 {
+    background-image: url(/images/main1.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+#main2 h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.overlay2 {
+    position:fixed
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient( rgba(0,0,0,0), darkorange);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+
+
+#games{
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;;
+}
+
+#food{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.subHeaderFont{
+    font-weight: 500;
+}
+
+#play{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#contact{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carousel {
+    max-width: 900px;
+    margin: auto;
+}
+
+h5 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.row {
+    border-radius: 15px;
+}
+
+.btnForm {
+    background-color:rgb(248, 158, 1);
+    height: 30px;
+    
+}
+
+.navbar-toggler{
+    height:50px;
+}
+
+footer {
+    height: 135px;
+    background-color: rgb(226, 224, 223)
+}
+
+/* ipad */
+@media screen and (min-width:768px) {
+    body {
+        background-color: pink;
+    }
+    #main2 {
+        height: 400px;
+    }
+
+}
+
+/* 992 */
+@media screen and (min-width:992px) {
+    body {
+        background-color: lightgreen;
+    }
+    
+    #main2 {
+        height: 500px;
+    }
+
+}
+
+/* 1200 */
+@media screen and (min-width:1200px) {
+    body {
+        background-color: lightcyan;
+    }
+    .navbar-brand>img{
+        height: 60px;
+    }
+    #enquire{
+        margin-left: 80px;
+    }
+    #main2 {
+        height: 600px;
+    }
+
+}
